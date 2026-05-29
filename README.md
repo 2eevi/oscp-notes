@@ -1,10 +1,21 @@
-# OSCP & Offensive Security Playbook 🧠
+# OSCP Notes — Red Team Playbook
 
-A curated collection of commands, techniques, and cheat sheets developed during my preparation for the OSCP.
+Personal cheatsheets and methodology notes for OSCP preparation.
+All content is based on real HTB machines and lab practice.
 
-### 📁 Contents
-- **Active Directory:** Kerberoasting, AS-REP Roasting, Pass-the-Hash, and BloodHound analysis.
-- **Privilege Escalation:** - Windows: Token Impersonation, Kernel Exploits, Unquoted Service Paths.
-  - Linux: SUID/GUID, Cron jobs, Writable /etc/passwd.
-- **Pivoting:** Chisel, Ligolo-ng, and SSH Tunneling.
-- **Payloads:** Reverse shell one-liners and AV evasion basics.
+> For educational and authorized testing purposes only.
+
+## Index
+
+| Section | Content |
+|---|---|
+| AD/ | Active Directory attack chain, NXC, Impacket, ADCS |
+| recon/ | Nmap, service enumeration, Gobuster/ffuf, Grep/Regex |
+| privesc/ | Windows & Linux privilege escalation |
+| web/ | SQLi, LFI, SSTI, File Upload, XXE |
+| pivoting/ | SSH tunneling, Chisel, Ligolo-ng |
+| tools/ | John, Hashcat, shells, TTY upgrade |
+
+## Machines solved: 65+
+Platform: HackTheBox | Proving Grounds
+Certifications: eJPTv2, PNPT | Working towards: OSCP+
